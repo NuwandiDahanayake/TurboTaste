@@ -1,0 +1,155 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  color: #fff;
+  padding: 60px;
+  text-align: center;
+  background-image: url('images/background-image.png');
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 650px;
+  background-attachment: fixed;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 2.0em;
+  font-weight: bold;
+  font-family: "Sofia", sans-serif;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-right: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+.hero-text {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.hero-text h1 {
+  font-size: 3.5em;
+  margin-bottom: 20px;
+}
+
+.hero-text p {
+  font-size: 1.3em;
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 90px;
+  background-color: #FF4500;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+section {
+  padding: 10px 10px;
+}
+
+
+#ourfeature {
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Bebas Neue', cursive;
+  color: #88ac1e;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.features-section {
+  padding: 50px 20px;  
+  display: flex;
+  flex-wrap: wrap;  
+  justify-content: space-around;  
+}
+
+.feature {
+  text-align: center;
+  margin-bottom: 30px;
+  border: 2px solid #ccc;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px #aaaaaa;
+  width: 45%;  
+  max-width: 400px;  
+  box-sizing: border-box;
+}
+
+.feature img {
+  width: 100%;
+  max-width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+ 
+/* ... Footer... */
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.social-media, .contact-info, .additional-info {
+  margin-bottom: 20px;
+}
+
+.social-media h3, .contact-info h3, .additional-info h3 {
+  font-size: 1.5em;
+}
+
+.social-media ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+.social-media li {
+  margin-right: 20px;
+}
+
+.social-media img {
+  width: 30px;
+}
+
+.copyright {
+  text-align: center;
+  margin-top: 20px;
+}
+
